@@ -1,0 +1,13 @@
+[2025-12-03 12:50:42] [INFO] syswatch-pro - Starting syswatch-pro agent
+[2025-12-03 12:50:42] [INFO] syswatch-pro - Interval set to 60 seconds
+[2025-12-03 12:50:43] [INFO] syswatch-pro - Collected metrics: {'cpu': 4.2, 'memory': 33.1, 'disk': 75.0, 'timestamp': '2025-12-03T04:50:43.006346+00:00'}
+[2025-12-03 12:51:02] [INFO] syswatch-pro - syswatch-pro agent stopped by user
+[2025-12-03 12:51:47] [INFO] syswatch-pro - Starting syswatch-pro agent
+[2025-12-03 12:51:47] [INFO] syswatch-pro - Interval set to 60 seconds
+[2025-12-03 12:51:48] [INFO] syswatch-pro - Collected metrics: {'cpu': 4.2, 'memory': 33.1, 'disk': 75.0, 'timestamp': '2025-12-03T04:51:48.907753+00:00'}
+[2025-12-03 12:51:52] [INFO] syswatch-pro - syswatch-pro agent stopped by user
+[2025-12-03 12:57:44] [INFO] syswatch-pro - Starting syswatch-pro agent
+[2025-12-03 12:57:44] [INFO] syswatch-pro - Interval set to 60 seconds
+[2025-12-03 12:57:45] [INFO] syswatch-pro - Collected metrics: {'cpu': 1.9, 'memory': 33.9, 'disk': 75.0, 'timestamp': '2025-12-03T04:57:45.072536+00:00'}
+[2025-12-03 12:58:46] [INFO] syswatch-pro - Collected metrics: {'cpu': 7.2, 'memory': 33.9, 'disk': 75.0, 'timestamp': '2025-12-03T04:58:46.074307+00:00'}
+[2025-12-03 12:58:52] [INFO] syswatch-pro - syswatch-pro agent stopped by user

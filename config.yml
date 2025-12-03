@@ -1,0 +1,13 @@
+agent:
+  name: "syswatch-pro"
+  interval_seconds: 60
+
+logging:
+  level: "INFO"
+  file: "syswatch.log"
+
+metrics:
+  namespace: "syswatch-pro"
+  dimensions:
+    - Name: "InstanceId"
+      Value: "local-dev"  # later we’ll detect real instance ID on EC2
