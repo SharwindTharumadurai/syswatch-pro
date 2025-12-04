@@ -6,8 +6,9 @@ logging:
   level: "INFO"
   file: "syswatch.log"
 
-metrics:
-  namespace: "syswatch-pro"
+aws:
+  region_name: "ap-southeast-1"
+  namespace: "syswatch-pro"  # CloudWatch custom namespace
   dimensions:
     - Name: "InstanceId"
-      Value: "local-dev"  # later we’ll detect real instance ID on EC2
+      Value: "local-dev"   # Later on EC2, we'll set this to the real instance ID

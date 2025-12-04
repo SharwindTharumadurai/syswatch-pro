@@ -11,3 +11,20 @@
 [2025-12-03 12:57:45] [INFO] syswatch-pro - Collected metrics: {'cpu': 1.9, 'memory': 33.9, 'disk': 75.0, 'timestamp': '2025-12-03T04:57:45.072536+00:00'}
 [2025-12-03 12:58:46] [INFO] syswatch-pro - Collected metrics: {'cpu': 7.2, 'memory': 33.9, 'disk': 75.0, 'timestamp': '2025-12-03T04:58:46.074307+00:00'}
 [2025-12-03 12:58:52] [INFO] syswatch-pro - syswatch-pro agent stopped by user
+[2025-12-04 11:33:48] [INFO] syswatch-pro - Starting syswatch-pro agent
+[2025-12-04 11:33:48] [INFO] syswatch-pro - Interval set to 60 seconds
+[2025-12-04 11:33:48] [INFO] syswatch-pro - CloudWatch namespace: syswatch-pro
+[2025-12-04 11:33:48] [INFO] syswatch-pro - CloudWatch dimensions: [{'Name': 'InstanceId', 'Value': 'local-dev'}]
+[2025-12-04 11:33:49] [INFO] syswatch-pro - Collected metrics: {'cpu': 2.6, 'memory': 34.1, 'disk': 75.4, 'timestamp': '2025-12-04T03:33:49.107961+00:00'}
+[2025-12-04 11:33:49] [INFO] syswatch-pro - Successfully pushed metrics to CloudWatch: {'ResponseMetadata': {'RequestId': 'ec378bb9-68ff-45b7-8f39-f3cff3a6702a', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'ec378bb9-68ff-45b7-8f39-f3cff3a6702a', 'content-type': 'text/xml', 'content-length': '212', 'date': 'Thu, 04 Dec 2025 03:33:50 GMT'}, 'RetryAttempts': 0}}
+[2025-12-04 11:34:50] [INFO] syswatch-pro - Collected metrics: {'cpu': 5.8, 'memory': 34.2, 'disk': 75.4, 'timestamp': '2025-12-04T03:34:50.538335+00:00'}
+[2025-12-04 11:34:50] [INFO] syswatch-pro - Successfully pushed metrics to CloudWatch: {'ResponseMetadata': {'RequestId': '4b2c1bb0-514e-41d2-b6de-994642ac1495', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '4b2c1bb0-514e-41d2-b6de-994642ac1495', 'content-type': 'text/xml', 'content-length': '212', 'date': 'Thu, 04 Dec 2025 03:34:51 GMT'}, 'RetryAttempts': 0}}
+[2025-12-04 11:35:51] [INFO] syswatch-pro - Collected metrics: {'cpu': 2.4, 'memory': 34.5, 'disk': 75.4, 'timestamp': '2025-12-04T03:35:51.853401+00:00'}
+[2025-12-04 11:35:52] [INFO] syswatch-pro - Successfully pushed metrics to CloudWatch: {'ResponseMetadata': {'RequestId': 'd8ba6b5b-6897-4c39-82dc-97d38b4dd6fc', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'd8ba6b5b-6897-4c39-82dc-97d38b4dd6fc', 'content-type': 'text/xml', 'content-length': '212', 'date': 'Thu, 04 Dec 2025 03:35:53 GMT'}, 'RetryAttempts': 0}}
+[2025-12-04 11:36:53] [INFO] syswatch-pro - Collected metrics: {'cpu': 2.5, 'memory': 34.0, 'disk': 75.4, 'timestamp': '2025-12-04T03:36:53.171346+00:00'}
+[2025-12-04 11:36:53] [INFO] syswatch-pro - Successfully pushed metrics to CloudWatch: {'ResponseMetadata': {'RequestId': '00e4af7c-52dd-404c-ac54-f90cda7c806c', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '00e4af7c-52dd-404c-ac54-f90cda7c806c', 'content-type': 'text/xml', 'content-length': '212', 'date': 'Thu, 04 Dec 2025 03:36:54 GMT'}, 'RetryAttempts': 0}}
+[2025-12-04 11:37:54] [INFO] syswatch-pro - Collected metrics: {'cpu': 4.2, 'memory': 34.3, 'disk': 75.4, 'timestamp': '2025-12-04T03:37:54.456077+00:00'}
+[2025-12-04 11:37:54] [INFO] syswatch-pro - Successfully pushed metrics to CloudWatch: {'ResponseMetadata': {'RequestId': '196c539a-2c20-4b7b-a0df-5c097c0359bb', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '196c539a-2c20-4b7b-a0df-5c097c0359bb', 'content-type': 'text/xml', 'content-length': '212', 'date': 'Thu, 04 Dec 2025 03:37:55 GMT'}, 'RetryAttempts': 0}}
+[2025-12-04 11:38:55] [INFO] syswatch-pro - Collected metrics: {'cpu': 16.9, 'memory': 30.9, 'disk': 75.4, 'timestamp': '2025-12-04T03:38:55.765504+00:00'}
+[2025-12-04 11:38:56] [INFO] syswatch-pro - Successfully pushed metrics to CloudWatch: {'ResponseMetadata': {'RequestId': '00e651ca-29f1-4553-a6a0-f0c06f50c8a8', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '00e651ca-29f1-4553-a6a0-f0c06f50c8a8', 'content-type': 'text/xml', 'content-length': '212', 'date': 'Thu, 04 Dec 2025 03:38:57 GMT'}, 'RetryAttempts': 0}}
+[2025-12-04 11:39:47] [INFO] syswatch-pro - syswatch-pro agent stopped by user
