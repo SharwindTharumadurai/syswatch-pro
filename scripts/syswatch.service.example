@@ -1,0 +1,14 @@
+[Unit]
+Description=syswatch-pro monitoring agent
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/ec2-user/syswatch-pro/venv/bin/python /opt/syswatch-pro/agent/syswatch.py
+WorkingDirectory=/opt/syswatch-pro
+Restart=always
+User=ec2-user
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
