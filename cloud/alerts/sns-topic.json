@@ -1,0 +1,10 @@
+{
+  "TopicName": "syswatch-alerts",
+  "DisplayName": "syswatch-pro-alerts",
+  "Subscriptions": [
+    {
+      "Protocol": "email",
+      "Endpoint": "sharwindtharuma@gmail.com"
+    }
+  ]
+}
