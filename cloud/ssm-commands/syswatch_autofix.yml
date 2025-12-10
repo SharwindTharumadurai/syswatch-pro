@@ -1,0 +1,32 @@
+---
+schemaVersion: "2.2"
+description: "syswatch-pro auto-fix for high CPU/Memory/Disk"
+
+parameters:
+  action:
+    type: String
+    description: "Auto-fix action"
+    default: "repair"
+
+mainSteps:
+  - name: clearLogs
+    action: aws:runShellScript
+    inputs:
+      runCommand:
+        - echo "Clearing system logs..."
+        - sudo find /var/log -type f -name "*.log" -exec truncate -s 0 {} \;
+
+  - name: cleanMemory
+    action: aws:runShellScript
+    inputs:
+      runCommand:
+        - echo "Clearing memory cache..."
+        - sudo sync
+        - echo 3 | sudo tee /proc/sys/vm/drop_caches
+
+  - name: restartAgent
+    action: aws:runShellScript
+    inputs:
+      runCommand:
+        - echo "Restarting syswatch service..."
+        - sudo systemctl restart syswatch
