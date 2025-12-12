@@ -5,8 +5,6 @@
 Production-style EC2 monitoring & self-healing agent built with
 Python, CloudWatch, SNS, SSM, EventBridge, and GitHub Actions.
 
-![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
-
 ---
 
 ## 📌 Problem Statement
@@ -58,6 +56,7 @@ syswatch-pro is a lightweight monitoring agent that:
 | CPU > 85% | Auto-fix triggered |
 | Memory > 80% | Clear cache + restart |
 | Disk > 90% | Logs cleaned |
+
 
 
 
