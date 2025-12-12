@@ -1,0 +1,30 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "CloudFormation template for EventBridge Rulesyswatch-pro-alarm-autofix",
+  "Resources": {
+    "Rule4aa38447": {
+      "Type": "AWS::Events::Rule",
+      "Properties": {
+        "Name": "syswatch-pro-alarm-autofix",
+        "EventPattern": "{\"source\":[\"aws.cloudwatch\"],\"detail-type\":[\"CloudWatch Alarm State Change\"],\"detail\":{\"state\":{\"value\":[\"ALARM\"]},\"alarmName\":[\"syswatch-pro-cpu-high\",\"syswatch-pro-memory-high\",\"syswatch-pro-disk-high\"]}}",
+        "State": "ENABLED",
+        "Description": "Trigger SSM auto-fix when syswatch-pro alarms fire",
+        "EventBusName": "default",
+        "Targets": [{
+          "Id": "Id94f24767-e944-4fee-b9ca-57fafde9613d",
+          "Arn": {
+            "Fn::Sub": "arn:${AWS::Partition}:ssm:${AWS::Region}:${AWS::AccountId}:document/syswatch-pro-autofix"
+          },
+          "RoleArn": "arn:aws:iam::956421559743:role/service-role/Amazon_EventBridge_Invoke_Run_Command_214587399",
+          "RunCommandParameters": {
+            "RunCommandTargets": [{
+              "Key": "InstanceIds",
+              "Values": ["i-07f5ab2910c58367c"]
+            }]
+          }
+        }]
+      }
+    }
+  },
+  "Parameters": {}
+}
