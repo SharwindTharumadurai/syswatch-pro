@@ -1,4 +1,4 @@
-![CI](https://github.com/YOUR_USERNAME/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
+![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
 
 
 
@@ -63,4 +63,5 @@ syswatch-pro is a lightweight monitoring agent that:
 ## 🛠️ Installation (1 Command)
 ```bash
 ./scripts/install.sh
+
 
