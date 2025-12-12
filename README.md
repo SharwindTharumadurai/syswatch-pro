@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
-
-
-
->>>>>>> b097db1395a36ac50227f56b2b9db6863159d0db
 # syswatch-pro 🚀
 Production-style EC2 monitoring & self-healing agent built with
 Python, CloudWatch, SNS, SSM, EventBridge, and GitHub Actions.
@@ -65,30 +58,46 @@ syswatch-pro is a lightweight monitoring agent that:
 
 ---
 
-Installation (1 Command)
+## 🛠️ Installation (1 Command)
 ```bash
 ./scripts/install.sh
-
-<<<<<<< HEAD
-CI/CD Pipeline
-
+🔄 CI/CD Pipeline
 Trigger: git push main
+
 Lint checks
+
 Deploy via SSM RunCommand
+
 Restart systemd service
 
-Repository Structure
-agent/ # Python monitoring agent
-cloud/ # AWS resources (dashboard, alarms, ssm, eventbridge)
-scripts/ # Installer & helpers
-.github/ # CI/CD workflows
+📁 Repository Structure
+agent/ — Python monitoring agent
+
+cloud/ — AWS resources (dashboard, alarms, ssm, eventbridge)
+
+scripts/ — Installer & helpers
+
+.github/ — CI/CD workflows
+
+📸 Screenshots
+
+![CloudWatch Alarms](screenshots/cloudwatch_alarms.png)
+![CloudWatch Dashboard](screenshots/cloudwatch_dashboard.png)
+![SNS Email Alert](screenshots/sns_email_alert.png)
+![SSM RunCommand Success](screenshots/ssm_runcommand_success.png)
 
 
+🚀 Future Improvements
+Multi-instance support
 
+Auto-scaling integration
 
+Prometheus exporter
 
-Author
+Terraform IaC
+
+Slack / PagerDuty alerts
+
+👤 Author
 Sharwind Tharumadurai
-=======
-
->>>>>>> b097db1395a36ac50227f56b2b9db6863159d0db
+AWS SAA | Cloud / DevOps Engineer
