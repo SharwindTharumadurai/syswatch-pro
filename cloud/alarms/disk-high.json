@@ -1,0 +1,28 @@
+{
+    "Type": "AWS::CloudWatch::Alarm",
+    "Properties": {
+        "AlarmName": "syswatch-pro-disk-high",
+        "Tags": [],
+        "ActionsEnabled": true,
+        "OKActions": [],
+        "AlarmActions": [
+            "arn:aws:sns:ap-southeast-1:956421559743:syswatch-alerts"
+        ],
+        "InsufficientDataActions": [],
+        "MetricName": "DiskUsage",
+        "Namespace": "syswatch-pro",
+        "Statistic": "Average",
+        "Dimensions": [
+            {
+                "Name": "InstanceId",
+                "Value": "local-dev"
+            }
+        ],
+        "Period": 60,
+        "EvaluationPeriods": 1,
+        "DatapointsToAlarm": 1,
+        "Threshold": 90,
+        "ComparisonOperator": "GreaterThanThreshold",
+        "TreatMissingData": "missing"
+    }
+}
