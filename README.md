@@ -80,6 +80,8 @@ scripts/ — Installer & helpers
 
 .github/ — CI/CD workflows
 
+```bash
+
 📸 Screenshots
 
 ![CloudWatch Dashboard](screenshots/cloudwatch_dashboard.png)
@@ -91,7 +93,7 @@ scripts/ — Installer & helpers
 ![SSM RunCommand Success](screenshots/ssm_runcommand_success.png)
 
 
-
+```bash
 🚀 Future Improvements
 Multi-instance support
 
@@ -106,17 +108,6 @@ Slack / PagerDuty alerts
 👤 Author
 Sharwind Tharumadurai
 AWS SAA | Cloud / DevOps Engineer
-
-yaml
-Copy code
-
-⚠️ Make sure:
-- Every ``` has a matching closing ```
-- Headings start with `##`
-- Lists start with `-` or numbers
-
 ---
-
-## ✅ FINAL STEPS (DO NOW)
 
 ```bash
