@@ -62,7 +62,7 @@ syswatch-pro is a lightweight monitoring agent that:
 
 ```bash
 ./scripts/install.sh
-```bash
+```
 🔄 CI/CD Pipeline
 Trigger: git push main
 
