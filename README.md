@@ -92,18 +92,7 @@ scripts/ — Installer & helpers
 ![SSM RunCommand Success](screenshots/ssm_runcommand_success.png)
 
 
-🚀 Future Improvements
-Multi-instance support
-
-Auto-scaling integration
-
-Prometheus exporter
-
-Terraform IaC
-
-Slack / PagerDuty alerts
-
 👤 Author
 Sharwind Tharumadurai
-AWS SAA | Cloud / DevOps Engineer
+
 ---
