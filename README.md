@@ -59,6 +59,7 @@ syswatch-pro is a lightweight monitoring agent that:
 ---
 
 ## 🛠️ Installation (1 Command)
+
 ```bash
 ./scripts/install.sh
 🔄 CI/CD Pipeline
@@ -105,3 +106,17 @@ Slack / PagerDuty alerts
 👤 Author
 Sharwind Tharumadurai
 AWS SAA | Cloud / DevOps Engineer
+
+yaml
+Copy code
+
+⚠️ Make sure:
+- Every ``` has a matching closing ```
+- Headings start with `##`
+- Lists start with `-` or numbers
+
+---
+
+## ✅ FINAL STEPS (DO NOW)
+
+```bash
