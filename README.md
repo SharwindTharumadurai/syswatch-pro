@@ -80,8 +80,6 @@ scripts/ — Installer & helpers
 
 .github/ — CI/CD workflows
 
-```bash
-
 📸 Screenshots
 
 ![CloudWatch Dashboard](screenshots/cloudwatch_dashboard.png)
@@ -93,7 +91,6 @@ scripts/ — Installer & helpers
 ![SSM RunCommand Success](screenshots/ssm_runcommand_success.png)
 
 
-```bash
 🚀 Future Improvements
 Multi-instance support
 
