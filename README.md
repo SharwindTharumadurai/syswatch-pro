@@ -61,9 +61,8 @@ syswatch-pro is a lightweight monitoring agent that:
 
 
 
-Author
-Sharwind Tharumadurai
-=======
+
+
 
 
 
