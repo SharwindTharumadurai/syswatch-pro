@@ -59,35 +59,14 @@ syswatch-pro is a lightweight monitoring agent that:
 | Memory > 80% | Clear cache + restart |
 | Disk > 90% | Logs cleaned |
 
----
-
-Installation (1 Command)
-```bash
-./scripts/install.sh
-
-<<<<<<< HEAD
-CI/CD Pipeline
-
-Trigger: git push main
-Lint checks
-Deploy via SSM RunCommand
-Restart systemd service
-
-Repository Structure
-agent/ # Python monitoring agent
-cloud/ # AWS resources (dashboard, alarms, ssm, eventbridge)
-scripts/ # Installer & helpers
-.github/ # CI/CD workflows
-
-
-
 
 
 Author
 Sharwind Tharumadurai
 =======
 
->>>>>>> b097db1395a36ac50227f56b2b9db6863159d0db
+
+
 
 
 
