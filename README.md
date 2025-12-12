@@ -1,5 +1,5 @@
 # syswatch-pro 🚀
-Production-style EC2 monitoring & self-healing agent built with
+EC2 monitoring & self-healing agent built with
 Python, CloudWatch, SNS, SSM, EventBridge, and GitHub Actions.
 
 ![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
@@ -92,7 +92,6 @@ scripts/ — Installer & helpers
 ![SSM RunCommand Success](screenshots/ssm_runcommand_success.png)
 
 
-👤 Author
-Sharwind Tharumadurai
+
 
 ---
