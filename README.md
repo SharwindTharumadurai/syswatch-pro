@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
+
+
+
+>>>>>>> b097db1395a36ac50227f56b2b9db6863159d0db
 # syswatch-pro 🚀
 Production-style EC2 monitoring & self-healing agent built with
 Python, CloudWatch, SNS, SSM, EventBridge, and GitHub Actions.
@@ -62,6 +69,7 @@ Installation (1 Command)
 ```bash
 ./scripts/install.sh
 
+<<<<<<< HEAD
 CI/CD Pipeline
 
 Trigger: git push main
@@ -81,3 +89,6 @@ scripts/ # Installer & helpers
 
 Author
 Sharwind Tharumadurai
+=======
+
+>>>>>>> b097db1395a36ac50227f56b2b9db6863159d0db
