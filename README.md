@@ -106,5 +106,3 @@ Slack / PagerDuty alerts
 Sharwind Tharumadurai
 AWS SAA | Cloud / DevOps Engineer
 ---
-
-```bash
