@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-=======
-![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
-
-
->>>>>>> bd411af5125e0fc35d259a7c0810ff23f06a3368
 # syswatch-pro 🚀
 Production-style EC2 monitoring & self-healing agent built with
 Python, CloudWatch, SNS, SSM, EventBridge, and GitHub Actions.
+
+![CI](https://github.com/SharwindTharumadurai/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
 
 ---
 
@@ -60,7 +56,6 @@ syswatch-pro is a lightweight monitoring agent that:
 | Memory > 80% | Clear cache + restart |
 | Disk > 90% | Logs cleaned |
 
-<<<<<<< HEAD
 ---
 
 ## 🛠️ Installation (1 Command)
@@ -86,12 +81,14 @@ scripts/ — Installer & helpers
 
 📸 Screenshots
 
-![CloudWatch Alarms](screenshots/cloudwatch_alarms.png)
 ![CloudWatch Dashboard](screenshots/cloudwatch_dashboard.png)
+
+![CloudWatch Alarm](screenshots/cloudwatch_alarms.png)
+
 ![SNS Email Alert](screenshots/sns_email_alert.png)
+
 ![SSM RunCommand Success](screenshots/ssm_runcommand_success.png)
-=======
->>>>>>> bd411af5125e0fc35d259a7c0810ff23f06a3368
+
 
 
 🚀 Future Improvements
@@ -101,7 +98,6 @@ Auto-scaling integration
 
 Prometheus exporter
 
-<<<<<<< HEAD
 Terraform IaC
 
 Slack / PagerDuty alerts
@@ -109,11 +105,3 @@ Slack / PagerDuty alerts
 👤 Author
 Sharwind Tharumadurai
 AWS SAA | Cloud / DevOps Engineer
-=======
-
-
-
-
-
-
->>>>>>> bd411af5125e0fc35d259a7c0810ff23f06a3368
