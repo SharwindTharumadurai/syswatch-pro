@@ -1,8 +1,10 @@
+![CI](https://github.com/YOUR_USERNAME/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
+
+
+
 # syswatch-pro 🚀
 Production-style EC2 monitoring & self-healing agent built with
 Python, CloudWatch, SNS, SSM, EventBridge, and GitHub Actions.
-
-![CI](https://github.com/YOUR_USERNAME/syswatch-pro/actions/workflows/deploy.yml/badge.svg)
 
 ---
 
@@ -61,3 +63,4 @@ syswatch-pro is a lightweight monitoring agent that:
 ## 🛠️ Installation (1 Command)
 ```bash
 ./scripts/install.sh
+
